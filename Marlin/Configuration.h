@@ -998,7 +998,7 @@
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
-#define PROBING_MARGIN 40
+#define PROBING_MARGIN 10
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 4000
@@ -1137,8 +1137,8 @@
 #define X_MIN_POS -19
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE+10
-#define Y_MAX_POS Y_BED_SIZE+50
+#define X_MAX_POS X_BED_SIZE+21
+#define Y_MAX_POS Y_BED_SIZE+100
 #define Z_MAX_POS 400
 
 /**
