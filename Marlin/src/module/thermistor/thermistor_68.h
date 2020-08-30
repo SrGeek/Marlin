@@ -22,7 +22,7 @@
 #pragma once
 
 // R25 = 20kΩ +-3% Rated Zero REsistance B Value 25/85 4282K +-2% -50-300C Temperature  203NT-4 -R025H42G
-const short temptable_68[][2] PROGMEM = {
+const temp_entry_t temptable_68[] PROGMEM = {
 
 { OV(   4.35 ),  300 },
 { OV(   5.67 ),  280 },
