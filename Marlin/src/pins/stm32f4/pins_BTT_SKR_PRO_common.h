@@ -24,11 +24,19 @@
 #ifndef TARGET_STM32F4
   #error "Oops! Select an STM32F4 board in 'Tools > Board.'"
 #endif
-
+//
+// EEPROM 
+//
+#define I2C_EEPROM
+#ifdef E2END
+   #undef E2END
+#endif
+#define E2END 0x7FFF // EEPROM end address AT24C256 (32kB)
+//#define MARLIN_EEPROM_SIZE 0x7FFF // EEPROM end address AT24C256 (32kB)
 // Use one of these or SDCard-based Emulation will be used
 #if NO_EEPROM_SELECTED
   //#define SRAM_EEPROM_EMULATION                 // Use BackSRAM-based EEPROM emulation
-  #define FLASH_EEPROM_EMULATION                  // Use Flash-based EEPROM emulation
+  //#define FLASH_EEPROM_EMULATION                // Use Flash-based EEPROM emulation
 #endif
 
 #if ENABLED(FLASH_EEPROM_EMULATION)
