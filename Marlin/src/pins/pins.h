@@ -1003,7 +1003,7 @@
   #define FAN2_PIN -1
 #endif
 #ifndef CONTROLLER_FAN_PIN
-  #define CONTROLLER_FAN_PIN  -1
+  #define CONTROLLER_FAN_PIN  PE6
 #endif
 
 #ifndef FANMUX0_PIN
