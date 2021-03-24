@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(none, default config)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Jaime, Black Mamba)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -747,7 +747,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 133.336, 500, 200*32*3*1.03/(7.3*3.14159),200*32*3*1.09/(7.3*3.14159) }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200*4, 500, 200*32*3*1.03/(7.3*3.14159),200*32*3*1.09/(7.3*3.14159) }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -767,11 +767,11 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 3000, 2500, 100, 10000, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 3000, 1000, 100, 10000, 10000 }
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
-  #define MAX_ACCEL_EDIT_VALUES       { 6000, 6000, 200, 20000 } // ...or, set your own edit limits
+  #define MAX_ACCEL_EDIT_VALUES       { 6000, 2000, 200, 20000 } // ...or, set your own edit limits
 #endif
 
 /**
