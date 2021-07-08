@@ -112,7 +112,7 @@ namespace Language_de {
   PROGMEM Language_Str MSG_MESH_X                          = _UxGT("Index X");
   PROGMEM Language_Str MSG_MESH_Y                          = _UxGT("Index Y");
   PROGMEM Language_Str MSG_MESH_EDIT_Z                     = _UxGT("Z-Wert");
-  PROGMEM Language_Str MSG_USER_MENU                       = _UxGT("Benutzer-Menü");
+  PROGMEM Language_Str MSG_CUSTOM_COMMANDS                 = _UxGT("Benutzer-Menü");
   PROGMEM Language_Str MSG_M48_TEST                        = _UxGT("M48 Sondentest");
   PROGMEM Language_Str MSG_M48_POINT                       = _UxGT("M48 Punkt");
   PROGMEM Language_Str MSG_M48_OUT_OF_BOUNDS               = _UxGT("Zu weit draußen");
@@ -231,9 +231,10 @@ namespace Language_de {
   PROGMEM Language_Str MSG_MOVE_EN                         = _UxGT("Bewege Extruder *");
   PROGMEM Language_Str MSG_HOTEND_TOO_COLD                 = _UxGT("Hotend zu kalt");
   PROGMEM Language_Str MSG_MOVE_N_MM                       = _UxGT(" %s mm");
-  PROGMEM Language_Str MSG_MOVE_01MM                       = _UxGT(" 0,1   mm");
-  PROGMEM Language_Str MSG_MOVE_1MM                        = _UxGT(" 1,0   mm");
-  PROGMEM Language_Str MSG_MOVE_10MM                       = _UxGT("10,0   mm");
+  PROGMEM Language_Str MSG_MOVE_01MM                       = _UxGT("  0,1  mm");
+  PROGMEM Language_Str MSG_MOVE_1MM                        = _UxGT("  1,0  mm");
+  PROGMEM Language_Str MSG_MOVE_10MM                       = _UxGT(" 10,0  mm");
+  PROGMEM Language_Str MSG_MOVE_100MM                      = _UxGT("100,0  mm");
   PROGMEM Language_Str MSG_SPEED                           = _UxGT("Geschw.");
   PROGMEM Language_Str MSG_BED_Z                           = _UxGT("Bett Z");
   PROGMEM Language_Str MSG_NOZZLE                          = _UxGT("Düse");

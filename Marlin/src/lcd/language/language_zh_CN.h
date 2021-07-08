@@ -109,7 +109,7 @@ namespace Language_zh_CN {
   PROGMEM Language_Str MSG_MESH_X                          = _UxGT("索引X");
   PROGMEM Language_Str MSG_MESH_Y                          = _UxGT("索引Y");
   PROGMEM Language_Str MSG_MESH_EDIT_Z                     = _UxGT("Z 值");
-  PROGMEM Language_Str MSG_USER_MENU                       = _UxGT("定制命令");     // "Custom Commands"
+  PROGMEM Language_Str MSG_CUSTOM_COMMANDS                 = _UxGT("定制命令");     // "Custom Commands"
   PROGMEM Language_Str MSG_M48_TEST                        = _UxGT("M48探测");
   PROGMEM Language_Str MSG_M48_POINT                       = _UxGT("M48点");
   PROGMEM Language_Str MSG_M48_DEVIATION                   = _UxGT("M48偏差");
@@ -230,6 +230,7 @@ namespace Language_zh_CN {
   PROGMEM Language_Str MSG_MOVE_01MM                       = _UxGT("移动 0.1 mm");     //"Move 0.1mm"
   PROGMEM Language_Str MSG_MOVE_1MM                        = _UxGT("移动 1 mm");     //"Move 1mm"
   PROGMEM Language_Str MSG_MOVE_10MM                       = _UxGT("移动 10 mm");     //"Move 10mm"
+  PROGMEM Language_Str MSG_MOVE_100MM                      = _UxGT("移动 100 mm");     //"Move 100mm"
   PROGMEM Language_Str MSG_SPEED                           = _UxGT("速率");     //"Speed"
   PROGMEM Language_Str MSG_BED_Z                           = _UxGT("热床Z");     //"Bed Z"
   PROGMEM Language_Str MSG_NOZZLE                          = _UxGT("喷嘴");     //"Nozzle" 噴嘴

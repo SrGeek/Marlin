@@ -114,7 +114,7 @@ namespace Language_tr {
   PROGMEM Language_Str MSG_MESH_X                          = _UxGT("İndeks X");
   PROGMEM Language_Str MSG_MESH_Y                          = _UxGT("İndeks Y");
   PROGMEM Language_Str MSG_MESH_EDIT_Z                     = _UxGT("Z Değeri");
-  PROGMEM Language_Str MSG_USER_MENU                       = _UxGT("Özel Komutlar");
+  PROGMEM Language_Str MSG_CUSTOM_COMMANDS                 = _UxGT("Özel Komutlar");
   PROGMEM Language_Str MSG_M48_TEST                        = _UxGT("M48 Prob Testi");
   PROGMEM Language_Str MSG_M48_POINT                       = _UxGT("M48 Nokta");
   PROGMEM Language_Str MSG_M48_DEVIATION                   = _UxGT("Sapma");
@@ -235,6 +235,7 @@ namespace Language_tr {
   PROGMEM Language_Str MSG_MOVE_01MM                       = _UxGT("0.1mm");
   PROGMEM Language_Str MSG_MOVE_1MM                        = _UxGT("1mm");
   PROGMEM Language_Str MSG_MOVE_10MM                       = _UxGT("10mm");
+  PROGMEM Language_Str MSG_MOVE_100MM                      = _UxGT("100mm");
   PROGMEM Language_Str MSG_SPEED                           = _UxGT("Hız");
   PROGMEM Language_Str MSG_BED_Z                           = _UxGT("Z Mesafesi");
   PROGMEM Language_Str MSG_NOZZLE                          = _UxGT("Nozul");
