@@ -2247,7 +2247,7 @@
   #if AXIS_IS_TMC(Y)
     #define Y_CURRENT       2150
     #define Y_CURRENT_HOME  Y_CURRENT
-    #define Y_MICROSTEPS     4
+    #define Y_MICROSTEPS     16
     #define Y_RSENSE          0.075
     #define Y_CHAIN_POS      -1
   #endif
@@ -2547,7 +2547,7 @@
    * Enable M122 debugging command for TMC stepper drivers.
    * M122 S0/1 will enable continous reporting.
    */
-  #define TMC_DEBUG
+  //#define TMC_DEBUG
 
   /**
    * You can set your own advanced settings by filling in predefined functions.
